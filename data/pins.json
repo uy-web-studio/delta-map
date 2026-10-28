@@ -1,0 +1,3023 @@
+[
+  {
+    "id": "access-equity-deans-office",
+    "name": "Access and Equity Dean's Office",
+    "kind": "office",
+    "category": [
+      "Student life"
+    ],
+    "location_id": "dericco",
+    "room": "123",
+    "description": "The Access and Equity Dean's Office at San Joaquin Delta College provides leadership and coordination for key student support programs that promote inclusion and student success. It oversees the following Office, Center, and Programs.",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5151 ext. 6214",
+    "email": "claudia.navarro@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/access-equity-deans-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/access-equity-deans-office",
+    "owner": "Access and Equity Dean's Office",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.3167004,
+    "lat": 37.997301
+  },
+  {
+    "id": "administrative-services-division-office",
+    "name": "Administrative Services Division Main Office",
+    "kind": "office",
+    "category": [
+      "Campus offices"
+    ],
+    "location_id": "forum",
+    "room": "202",
+    "description": "The Administrative Services Office at Delta College plays a vital role in managing the College’s non-academic operations, including facilities planning and management, fiscal services, information technology, payroll, procurement, and auxiliary services such as the Bookstore and food services.",
+    "hours": {
+      "mon": [
+        [
+          "09:00",
+          "16:00"
+        ]
+      ],
+      "tue": [
+        [
+          "09:00",
+          "16:00"
+        ]
+      ],
+      "wed": [
+        [
+          "09:00",
+          "16:00"
+        ]
+      ],
+      "thu": [
+        [
+          "09:00",
+          "16:00"
+        ]
+      ],
+      "fri": [
+        [
+          "09:00",
+          "16:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5022",
+    "email": "allison.rocili@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/administrative-services-division-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/administrative-services-division-office",
+    "owner": "Administrative Services Division Main Office",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.3177288,
+    "lat": 37.9958682
+  },
+  {
+    "id": "admission-records-office",
+    "name": "Admissions and Records Office",
+    "kind": "office",
+    "category": [
+      "Campus services"
+    ],
+    "location_id": "dericco",
+    "room": "132",
+    "description": "The Admissions and Records Office at Delta College is where you’ll start your journey as a student. Helping you apply to the college, register for classes, and keep track of your student records like transcripts and grades. This is the office that will guide you through enrollment, making sure you meet deadlines and helping you understand the steps to officially become a Delta student.",
+    "hours_note": "Fall & Spring Semester Hours Monday, Tuesday, Thursday, Friday: 8:00 a.m. – 5:00 p.m. Wednesday: 8:00 a.m. – 7:00 p.m. Summer Session Hours Monday - Friday: 8:00 a.m. – 5:00 p.m.",
+    "phone": "(209) 954-5151",
+    "email": "admissions-followup@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/admission-records-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/admission-records-office",
+    "owner": "Admissions and Records Office",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.3167004,
+    "lat": 37.997301
+  },
+  {
+    "id": "apprenticeship-office",
+    "name": "Apprenticeship Office",
+    "kind": "office",
+    "category": [
+      "Career & jobs"
+    ],
+    "location_id": "holt",
+    "room": "125",
+    "description": "The Apprenticeship Office at San Joaquin Delta College supports students and employers by coordinating registered apprenticeship programs that combine paid, on-the-job training with classroom instruction.",
+    "phone": "(209) 954-5069",
+    "email": "apprenticeship@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/apprenticeship-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/apprenticeship-office",
+    "owner": "Apprenticeship Office",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.317703,
+    "lat": 37.9945954
+  },
+  {
+    "id": "arts-multimedia-division-main-office",
+    "name": "Arts and Multimedia Division Office",
+    "kind": "office",
+    "category": [
+      "Campus offices"
+    ],
+    "location_id": "holt",
+    "room": "242",
+    "description": "The Arts and Multimedia Division Main Office at Delta College celebrates creativity, expression, and critical thinking through a wide range of programs in visual arts, performing arts, communication, and media. This division offers students opportunities to explore disciplines such as art, music, theater, dance, graphic design, photography, journalism, and film.",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5209",
+    "email": "angel.ortega@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/arts-multimedia-division-main-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/arts-multimedia-division-main-office",
+    "owner": "Arts and Multimedia Division Office",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.317703,
+    "lat": 37.9945954
+  },
+  {
+    "id": "asdc",
+    "name": "Associated Students of Delta College (ASDC)",
+    "kind": "office",
+    "category": [
+      "Events",
+      "Student life"
+    ],
+    "location_id": "shima",
+    "room": "101C",
+    "description": "The Associated Students of Delta College (ASDC) is Delta College's official student governance body, dedicated to amplifying student voices and advocating for their rights, needs, and aspirations across campus. ASDC hosts weekly, open-to-the-public meetings allowing all students to get involved.",
+    "phone": "(209) 954-5484",
+    "email": "studentlife@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/ASDC",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/ASDC",
+    "owner": "Associated Students of Delta College (ASDC)",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.3186252,
+    "lat": 37.9961718
+  },
+  {
+    "id": "athletics-office",
+    "name": "Athletics and Physical Education Division Office",
+    "kind": "office",
+    "category": [
+      "Events"
+    ],
+    "location_id": "budd",
+    "room": "119",
+    "description": "Delta College Athletics inspires student-athletes to be their best — on the field, in the classroom, and in life. Athletics is viewed as an essential part of the educational experience, helping students grow as competitors, scholars, and citizens.",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5176",
+    "email": "athletics@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/athletics-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/athletics-office",
+    "owner": "Athletics and Physical Education Division Office",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.31929,
+    "lat": 37.9947715
+  },
+  {
+    "id": "auxiliary-services-office",
+    "name": "Auxiliary Services Office",
+    "kind": "office",
+    "category": [
+      "Campus offices"
+    ],
+    "location_id": "danner",
+    "room": "100",
+    "description": "The Auxiliary Services at Delta College supports the institution’s mission by managing the bookstore, food services, and related areas. It ensures operational services are efficient, compliant with public-fund regulations, and aligned with student, staff and campus needs.",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5151 ext. 5065",
+    "url": "https://www.deltacollege.edu/about/offices/auxiliary-services-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/auxiliary-services-office",
+    "owner": "Auxiliary Services Office",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.318842,
+    "lat": 37.9956434
+  },
+  {
+    "id": "basic-needs-center",
+    "name": "Basic Needs Center",
+    "kind": "office",
+    "category": [
+      "Food",
+      "Housing"
+    ],
+    "location_id": "danner",
+    "room": "202B",
+    "description": "Delta College recognizes that basic needs have a direct impact on the mental-emotional-physical health, wellness, academic performance, professional development, and holistic success of students. The District strives for equitable access to basic needs through student empowerment, community collaboration, advocacy, and institutional integration.",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5836",
+    "email": "basicneedscenter@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/basic-needs-center",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/basic-needs-center",
+    "owner": "Basic Needs Center",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.318842,
+    "lat": 37.9956434
+  },
+  {
+    "id": "board-trustees",
+    "name": "Board of Trustees",
+    "kind": "office",
+    "category": [
+      "Campus offices"
+    ],
+    "location_id": "horton-administration",
+    "room": "103A",
+    "description": "The San Joaquin Delta Community College District is governed by a Board of Trustees consisting of seven voting members, elected from trustee areas in general elections throughout the district, and a student representative, appointed by student government.",
+    "phone": "(209) 954-5018",
+    "email": "robin.phares@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/board-trustees",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/board-trustees",
+    "owner": "Board of Trustees",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.3173633,
+    "lat": 37.9953943
+  },
+  {
+    "id": "bookstore",
+    "name": "Bookstore",
+    "kind": "office",
+    "category": [
+      "Campus services"
+    ],
+    "location_id": "danner",
+    "room": "100",
+    "description": "The Delta College Bookstore is your one-stop shop for everything you need to succeed as a student. Along with textbooks and class supplies, you’ll find Mustang gear, hats, and other Delta merchandise to show off your school pride. The store also carries art and lab materials, electronics, snacks, and drinks, making it easy to grab what you need between classes.",
+    "hours": {
+      "mon": [
+        [
+          "07:45",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "07:45",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "07:45",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "07:45",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "07:45",
+          "12:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5085",
+    "email": "bookstore@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/bookstore",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/bookstore",
+    "owner": "Bookstore",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.318842,
+    "lat": 37.9956434
+  },
+  {
+    "id": "calworks-assessment-office",
+    "name": "CalWORKs Assessment Office",
+    "kind": "office",
+    "category": [
+      "Money & financial aid",
+      "Family & childcare"
+    ],
+    "location_id": "dericco",
+    "room": "117",
+    "description": "The CalWORKs Assessment Office at Delta College helps students receiving CalWORKs benefits identify their strengths, interests, and career goals through personalized assessments. The office provides guidance on educational pathways, career planning, and support services to ensure students succeed in both college and the workplace.",
+    "hours_note": "Monday- Friday: 8:00 a.m. - 5:00 p.m. Saturday: Testing by appointment only",
+    "phone": "(209) 954-5151 ext. 6335",
+    "email": "jan.chansilaphet@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/calworks-assessment-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/calworks-assessment-office",
+    "owner": "CalWORKs Assessment Office",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.3167004,
+    "lat": 37.997301
+  },
+  {
+    "id": "calworks-office",
+    "name": "CalWORKs Program",
+    "kind": "office",
+    "category": [
+      "Money & financial aid",
+      "Family & childcare"
+    ],
+    "location_id": "dericco",
+    "room": "117",
+    "description": "The CalWORKs program at Delta College provides services to students who are receiving cash assistance from the Human Services Agency. Our purpose is to support students in their progress toward their county-approved plan, and to ensure their success in achieving their educational goals. Assistance to county case managers is also provided, to ensure compliance.",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5151 ext. 6209",
+    "email": "estefan.urrea@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/calworks-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/calworks-office",
+    "owner": "CalWORKs Program",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.3167004,
+    "lat": 37.997301
+  },
+  {
+    "id": "career-technical-education-main-office",
+    "name": "Career Technical Education Division Office",
+    "kind": "office",
+    "category": [
+      "Campus offices"
+    ],
+    "location_id": "holt",
+    "room": "140",
+    "description": "The Career Technical Education Division (CTE) Division at San Joaquin Delta College is a dynamic academic division offering career-focused programs in areas such as automotive, welding, business, accounting, engineering, mechatronics, and electron microscopy, and Transfer pathways.",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5230",
+    "email": "waheeda.khan@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/career-technical-education-main-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/career-technical-education-main-office",
+    "owner": "Career Technical Education Division Office",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.317703,
+    "lat": 37.9945954
+  },
+  {
+    "id": "child-development-center",
+    "name": "Child Development Center",
+    "kind": "office",
+    "category": [
+      "Family & childcare"
+    ],
+    "location_id": "child-development",
+    "description": "Welcome to the Delta College Child Development Center! We are located in the the Hazel Hill Child Development Center Building. To qualify for full-day services, income-eligible parents must demonstrate need by enrollment in classes, training and/or working.",
+    "hours_note": "Fall & Spring Semester Preschool Program / Toddler Program Monday - Friday: 7:30 a.m. - 4:00 p.m. Summer Session Preschool Program Monday - Thursday: 7:30 a.m. - 1:00 p.m. Friday: 7:30 a.m. - 12:00 p.m.",
+    "phone": "(209) 954-5700",
+    "email": "tammy.white@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/child-development-center",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/child-development-center",
+    "owner": "Child Development Center",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.3162866,
+    "lat": 37.9961088
+  },
+  {
+    "id": "counseling-retention-office",
+    "name": "Counseling and Retention Office",
+    "kind": "office",
+    "category": [
+      "Academic support"
+    ],
+    "location_id": "dericco",
+    "room": "234",
+    "description": "A college education can open up many new doors, but sometimes it's not clear which door to open. We’re here to make the journey a little easier with comprehensive counseling services.",
+    "hours_note": "In Person Services Monday - Friday: 8:00 a.m. – 5:00 p.m. LiveChat Hours Monday - Friday: 8:00 a.m. – 5:00 p.m. Drop-In Sessions Monday – Friday: Please check in with the General Counseling Department for availability.",
+    "phone": "(209) 954-5151 ext. 6276",
+    "url": "https://www.deltacollege.edu/about/offices/counseling-retention-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/counseling-retention-office",
+    "owner": "Counseling and Retention Office",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.3167004,
+    "lat": 37.997301
+  },
+  {
+    "id": "cte-and-workforce-development",
+    "name": "CTE & Workforce Development",
+    "kind": "office",
+    "category": [
+      "Career & jobs"
+    ],
+    "location_id": "shima",
+    "room": "217",
+    "description": "The CTE & Workforce Development works with Delta College students, faculty, staff, and the local community to build a local and regional workforce to ensure our economic growth and global competitiveness.",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5151 ext. 5472",
+    "email": "cte@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/cte-and-workforce-development",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/cte-and-workforce-development",
+    "owner": "CTE & Workforce Development",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.3186252,
+    "lat": 37.9961718
+  },
+  {
+    "id": "custodial-grounds-office",
+    "name": "Custodial and Grounds Office",
+    "kind": "office",
+    "category": [
+      "Campus offices"
+    ],
+    "location_id": "danner",
+    "room": "B6",
+    "description": "Custodial and Grounds Services at Delta College plays a vital role in maintaining a clean, safe, and welcoming campus environment. The custodial team ensures classrooms, offices, and facilities are well cared for, while the grounds crew tends to the College’s outdoor spaces, landscaping, and athletic fields.",
+    "hours": {
+      "mon": [
+        [
+          "07:30",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "07:30",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "07:30",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "07:30",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "07:30",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5063",
+    "email": "rodney.alvarez@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/custodial-grounds-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/custodial-grounds-office",
+    "owner": "Custodial and Grounds Office",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.318842,
+    "lat": 37.9956434
+  },
+  {
+    "id": "delta-center-arts",
+    "name": "Delta Center for the Arts",
+    "kind": "office",
+    "category": [
+      "Events"
+    ],
+    "location_id": "locke",
+    "room": "104",
+    "description": "The Delta Center for the Arts stands as a cornerstone of artistic development and cultural enrichment. Whether you're a student eager to express your talents, a local artist seeking exhibition opportunities, or a member of the community yearning for world-class performances and exhibitions, the DCA invites you to experience the depth and diversity of Delta College’s creative spirit.",
+    "hours_note": "Box Office Hours: Tuesday - Friday: 9:00 a.m. - 4:00 p.m. Saturday, Sunday, Monday: Closed",
+    "phone": "(209) 954-5110",
+    "email": "tickets.boxoffice@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/delta-center-arts",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/delta-center-arts",
+    "owner": "Delta Center for the Arts",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.3169512,
+    "lat": 37.9957354
+  },
+  {
+    "id": "delta-connect-center",
+    "name": "Delta Connect Center",
+    "kind": "office",
+    "category": [
+      "Academic support"
+    ],
+    "location_id": "dericco",
+    "room": "132",
+    "description": "The Delta Connect Center is your go-to spot for getting the help you need!",
+    "hours_note": "Fall / Spring / Summer Hours Monday, Tuesday, Thursday and Friday: 8:00 a.m. - 5:00 p.m. Wednesdays: 8:00 a.m. - 7:00 p.m.",
+    "phone": "(209) 954-5445",
+    "email": "deltaconnect@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/delta-connect-center",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/delta-connect-center",
+    "owner": "Delta Connect Center",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.3167004,
+    "lat": 37.997301
+  },
+  {
+    "id": "directing-adults-right-trac-employment-darte",
+    "name": "Directing Adults on the Right TrAC for Employment (DARTE) Office",
+    "kind": "office",
+    "category": [
+      "Career & jobs"
+    ],
+    "location_id": "shima",
+    "room": "217",
+    "description": "Looking for a fresh start? Here's a chance to land on your feet and start a new career through Delta College's new DARTE program (Directing Adults on the Right TrAC for Employment). The DARTE Office is part of San Joaquin Delta College’s commitment to supporting adult learners and advancing workforce development.",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5472",
+    "email": "darte@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/directing-adults-right-trac-employment-darte",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/directing-adults-right-trac-employment-darte",
+    "owner": "Directing Adults on the Right TrAC for Employment (DARTE) Office",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.3186252,
+    "lat": 37.9961718
+  },
+  {
+    "id": "dsps",
+    "name": "Disability Support Programs and Services (DSPS)",
+    "kind": "office",
+    "category": [
+      "Disability & access"
+    ],
+    "location_id": "dericco",
+    "room": "110",
+    "lat": 37.997566,
+    "lng": -121.316833,
+    "description": "The Disability Support Program & Services (DSPS) at Delta College empowers students with disabilities to achieve their goals and become contributing members of society by eliminating barriers and facilitating services for students to become accountable, self-reliant, responsible, and capable.",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5151 ext. 6272",
+    "email": "dsps@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/dsps",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/dsps",
+    "owner": "Disability Support Programs and Services (DSPS)",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": false
+  },
+  {
+    "id": "dreamers-success-center",
+    "name": "Dreamers Success Center",
+    "kind": "office",
+    "category": [
+      "Legal & immigration"
+    ],
+    "location_id": "holt",
+    "room": "201",
+    "description": "Welcome to San Joaquin Delta College! Our mission is the right for everyone to be able to pursue higher education without fear of one's immigration status. We acknowledge how the path for undocumented students in pursuit of higher education requires more determination, strength, and resilience than should be expected, or is fair.",
+    "hours": {
+      "mon": [
+        [
+          "08:30",
+          "17:30"
+        ]
+      ],
+      "tue": [
+        [
+          "08:30",
+          "17:30"
+        ]
+      ],
+      "wed": [
+        [
+          "08:30",
+          "17:30"
+        ]
+      ],
+      "thu": [
+        [
+          "08:30",
+          "17:30"
+        ]
+      ],
+      "fri": [
+        [
+          "08:30",
+          "17:30"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5731",
+    "email": "dreamers@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/dreamers-success-center",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/dreamers-success-center",
+    "owner": "Dreamers Success Center",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.317703,
+    "lat": 37.9945954
+  },
+  {
+    "id": "empowerment-resource-center",
+    "name": "Empowerment Resource Center",
+    "kind": "office",
+    "category": [
+      "Student life"
+    ],
+    "location_id": "danner",
+    "room": "202",
+    "description": "The Empowerment Resource Center (ERC) provides support to students who are current or former foster youth, probation youth, and to students who are currently and formerly incarcerated",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "16:30"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5836",
+    "email": "empowerment@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/empowerment-resource-center",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/empowerment-resource-center",
+    "owner": "Empowerment Resource Center",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.318842,
+    "lat": 37.9956434
+  },
+  {
+    "id": "enrollment-services-dean-office",
+    "name": "Enrollment Services Office",
+    "kind": "office",
+    "category": [
+      "Campus services"
+    ],
+    "location_id": "dericco",
+    "room": "213",
+    "description": "The Enrollment Services Office at Delta College guides students through the enrollment process, from applying for admission to registering for classes, while also assisting with residency, transcripts, and student records.",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5151 ext. 6378",
+    "email": "melissa.bailey@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/enrollment-services-dean-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/enrollment-services-dean-office",
+    "owner": "Enrollment Services Office",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.3167004,
+    "lat": 37.997301
+  },
+  {
+    "id": "eops-care-nextup-center",
+    "name": "EOPS/CARE/NextUp Programs",
+    "kind": "office",
+    "category": [
+      "Money & financial aid",
+      "Academic support"
+    ],
+    "location_id": "dericco",
+    "room": "234",
+    "description": "EOPS, CARE, and NextUp at Delta College provide intensive, wraparound support for students who face financial or personal barriers that can make college feel out of reach. Through counseling, priority registration, book support, grants, and a caring community, these programs help students stay on track, succeed, and reach their goals. You can do this!",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5151 ext. 6296",
+    "email": "eops@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/eops-care-nextup-center",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/eops-care-nextup-center",
+    "owner": "EOPS/CARE/NextUp Programs",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.3167004,
+    "lat": 37.997301
+  },
+  {
+    "id": "epicenter",
+    "name": "EPICenter",
+    "kind": "office",
+    "category": [
+      "Career & jobs"
+    ],
+    "location_id": "science-math",
+    "room": "327",
+    "description": "The goal of the EPICenter is to motivate and prepare today’s Asian American and Pacific Islander students to become tomorrow’s AAPI leaders through classes and activities that foster educational achievement, personal empowerment, and civic engagement.",
+    "hours": {
+      "mon": [
+        [
+          "09:00",
+          "16:00"
+        ]
+      ],
+      "tue": [
+        [
+          "09:00",
+          "16:00"
+        ]
+      ],
+      "wed": [
+        [
+          "09:00",
+          "16:00"
+        ]
+      ],
+      "thu": [
+        [
+          "09:00",
+          "16:00"
+        ]
+      ],
+      "fri": [
+        [
+          "09:00",
+          "16:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5151 ext. 6341",
+    "email": "susan.vang@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/epicenter",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/epicenter",
+    "owner": "EPICenter",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.318018,
+    "lat": 37.9968437
+  },
+  {
+    "id": "facilities-planning-management-office",
+    "name": "Facilities Planning and Management Office",
+    "kind": "office",
+    "category": [
+      "Campus offices"
+    ],
+    "location_id": "danner",
+    "room": "B4",
+    "description": "The Facilities Planning and Management Office at Delta College oversees the planning, development, maintenance, and daily operation of the College’s physical spaces. This includes managing new construction, renovations, long-term facilities planning, and sustainability initiatives.",
+    "hours": {
+      "mon": [
+        [
+          "07:30",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "07:30",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "07:30",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "07:30",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "07:30",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5063",
+    "email": "veronica.arroyo@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/facilities-planning-management-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/facilities-planning-management-office",
+    "owner": "Facilities Planning and Management Office",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.318842,
+    "lat": 37.9956434
+  },
+  {
+    "id": "financial-aid-scholarships-office",
+    "name": "Financial Aid and Scholarships",
+    "kind": "office",
+    "category": [
+      "Money & financial aid"
+    ],
+    "location_id": "dericco",
+    "description": "Delta’s Financial Aid & Scholarships Office is here to help you afford college by removing financial barriers and connecting you with the support you need to succeed.",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "19:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "09:00"
+        ],
+        [
+          "10:00",
+          "15:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5115",
+    "email": "financialaid@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/financial-aid-scholarships-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/financial-aid-scholarships-office",
+    "owner": "Financial Aid and Scholarships",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.3167004,
+    "lat": 37.997301
+  },
+  {
+    "id": "fiscal-services-office",
+    "name": "Fiscal Services",
+    "kind": "office",
+    "category": [
+      "Campus offices"
+    ],
+    "location_id": "horton-administration",
+    "room": "201",
+    "description": "Delta College's Fiscal Services Office is here to ensure that all College resources are accounted for and reported in an accurate, timely, and efficient manner within regulatory and compliance standards. We also provide sound financial services with a sense of public stewardship, integrity, and courteous professionalism to the campus and community.",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5023",
+    "email": "colleen.byars@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/fiscal-services-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/fiscal-services-office",
+    "owner": "Fiscal Services",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.3173633,
+    "lat": 37.9953943
+  },
+  {
+    "id": "food-services-office",
+    "name": "Food Services Office",
+    "kind": "office",
+    "category": [
+      "Food"
+    ],
+    "location_id": "danner",
+    "room": "100",
+    "description": "The Food Service Office makes sure students, faculty, staff, and visitors have access to fresh, affordable meals and snacks every day. From daily dining to special campus events, the team focuses on quality, safety, and service so that eating on campus is always a positive experience.",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5808",
+    "email": "nathan.mcbride@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/food-services-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/food-services-office",
+    "owner": "Food Services Office",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.318842,
+    "lat": 37.9956434
+  },
+  {
+    "id": "grants-office",
+    "name": "Grants Office",
+    "kind": "office",
+    "category": [
+      "Campus offices"
+    ],
+    "location_id": "science-math",
+    "room": "243",
+    "description": "The Grants Office at San Joaquin Delta College works within the office of Institutional Research and Effectiveness to assist faculty and administrators in securing funds to support innovative programs and special projects. Please involve the grants office as soon as you identify a potential grant opportunity!",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 200-8637",
+    "email": "julie.henderson@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/grants-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/grants-office",
+    "owner": "Grants Office",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.318018,
+    "lat": 37.9968437
+  },
+  {
+    "id": "health-wellness-office",
+    "name": "Health and Wellness",
+    "kind": "office",
+    "category": [
+      "Health & wellness"
+    ],
+    "location_id": "locke",
+    "room": "126",
+    "description": "Wellness is an active process through which people become aware of, and make choices toward, a more successful existence.",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "19:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5151 ext. 6268",
+    "email": "vanessa.plaza@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/health-wellness-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/health-wellness-office",
+    "owner": "Health and Wellness",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.3169512,
+    "lat": 37.9957354
+  },
+  {
+    "id": "health-science-division-main-office",
+    "name": "Health Science Division Office",
+    "kind": "office",
+    "category": [
+      "Campus offices"
+    ],
+    "location_id": "locke",
+    "room": "204",
+    "description": "The Health Science Division at Delta College prepares students for rewarding careers in healthcare and wellness. Offering programs in nursing, emergency medical services, radiologic technology, psychiatric technology, speech language pathology, health science and more, the division blends academic study with real-world experience.",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5454",
+    "email": "tiffany.carrillo@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/health-science-division-main-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/health-science-division-main-office",
+    "owner": "Health Science Division Office",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.3169512,
+    "lat": 37.9957354
+  },
+  {
+    "id": "hr",
+    "name": "Human Resources Office",
+    "kind": "office",
+    "category": [
+      "Campus offices"
+    ],
+    "location_id": "horton-administration",
+    "room": "202",
+    "description": "If you’re looking for a place where your work matters and your potential is supported, we’re excited that you’re considering Delta College!",
+    "phone": "(209) 954-5056",
+    "email": "humanresources@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/hr",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/hr",
+    "owner": "Human Resources Office",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.3173633,
+    "lat": 37.9953943
+  },
+  {
+    "id": "institutional-research-effectiveness-office",
+    "name": "Institutional Research and Effectiveness (IRE) Office",
+    "kind": "office",
+    "category": [
+      "Campus offices"
+    ],
+    "location_id": "science-math",
+    "room": "150",
+    "description": "The Institutional Research and Effectiveness (IRE) Office plays a pivotal role in supporting the College's mission, vision, and strategic goals through comprehensive planning and research activities. It provides timely and accurate data, documentation, and analyses to inform decision-making across the institution, ensuring transparency and fostering a culture of continuous improvement.",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5039",
+    "email": "ire@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/institutional-research-effectiveness-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/institutional-research-effectiveness-office",
+    "owner": "Institutional Research and Effectiveness (IRE) Office",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.318018,
+    "lat": 37.9968437
+  },
+  {
+    "id": "instruction-planning-division-office",
+    "name": "Instruction and Planning Division Office",
+    "kind": "office",
+    "category": [
+      "Campus offices"
+    ],
+    "location_id": "horton-administration",
+    "room": "102",
+    "description": "The Office of Instruction and Planning provides leadership and oversight to Delta College's academic programs and instructional resources and services in support of the educational mission of the District. It oversees the following Offices, Centers, and Initiatives .",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5036",
+    "email": "donna.montanez@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/instruction-planning-division-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/instruction-planning-division-office",
+    "owner": "Instruction and Planning Division Office",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.3173633,
+    "lat": 37.9953943
+  },
+  {
+    "id": "lh-horton-jr-art-gallery",
+    "name": "LH Horton Jr Art Gallery",
+    "kind": "office",
+    "category": [
+      "Events"
+    ],
+    "location_id": "shima",
+    "room": "144",
+    "description": "The LH Horton Jr Gallery is a fine arts exhibition and events program within the Arts & Multimedia TrAC at San Joaquin Delta College, and a venue of Delta Center for the Arts. The Gallery presents contemporary art exhibitions and associated visual arts events and workshops.",
+    "hours_note": "Gallery Exhibition Hours Monday - Thursday: 11:00 a.m. - 5:30 p.m. Friday: 11:00 a.m. - 1:00 p.m.",
+    "phone": "(209) 954-5507",
+    "email": "jan.marlese@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/lh-horton-jr-art-gallery",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/lh-horton-jr-art-gallery",
+    "owner": "LH Horton Jr Art Gallery",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.3186252,
+    "lat": 37.9961718
+  },
+  {
+    "id": "maintenance-operations-office",
+    "name": "Maintenance and Operations",
+    "kind": "office",
+    "category": [
+      "Campus offices"
+    ],
+    "location_id": "danner",
+    "room": "B6",
+    "description": "The Maintenance and Operations Department is responsible for the day-to-day operation, repair, maintenance, and security of buildings. Our goal is to provide a well-maintained, safe, aesthetically pleasing learning and working environment for all students, personnel, and visitors.",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5063",
+    "email": "veronica.arroyo@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/maintenance-operations-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/maintenance-operations-office",
+    "owner": "Maintenance and Operations",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.318842,
+    "lat": 37.9956434
+  },
+  {
+    "id": "marketing-communication-office",
+    "name": "Marketing and Communications Office",
+    "kind": "office",
+    "category": [
+      "Campus offices"
+    ],
+    "location_id": "horton-administration",
+    "room": "110",
+    "description": "The Marketing and Communications Office is responsible for managing the overall marketing and communication efforts for the college.",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5382",
+    "email": "info@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/marketing-communication-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/marketing-communication-office",
+    "owner": "Marketing and Communications Office",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.3173633,
+    "lat": 37.9953943
+  },
+  {
+    "id": "mesa",
+    "name": "MESA Center",
+    "kind": "office",
+    "category": [
+      "Academic support"
+    ],
+    "location_id": "science-math",
+    "room": "163",
+    "description": "Delta’s MESA program provides academic support to first generation, low-income college students in Calculus-based fields in Mathematics, Engineering and Sciences, as they move towards transfer to a university. We are part of a statewide continuum of services, working with students in 6th grade through to their Bachelor’s degree, with 373 sister programs throughout California.",
+    "hours_note": "Fall/Spring Monday - Wednesday: 8:00 a.m. - 7:00 p.m. Thursday: 8:00 a.m. - 5:00 p.m. Friday: 8:00 a.m. - 12:00 p.m. Summer Monday - Thursday: 8:00 a.m. - 5:00 p.m. Friday: Closed",
+    "phone": "(209) 954-5318",
+    "email": "mesa@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/mesa",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/mesa",
+    "owner": "MESA Center",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.318018,
+    "lat": 37.9968437
+  },
+  {
+    "id": "middle-college-high-school",
+    "name": "Middle College High School",
+    "kind": "office",
+    "category": [
+      "Campus offices"
+    ],
+    "location_id": "budd",
+    "room": "105",
+    "description": "Middle College High School (MCHS), established in 2000, is a partnership between Lodi Unified School District and San Joaquin Delta College. Located on the Delta campus, the school serves approximately 360 students in grades nine through twelve and is accredited by the Western Association of Schools and Colleges.",
+    "phone": "(209) 954-5151 ext. 5790",
+    "email": "gina.antenucci@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/middle-college-high-school",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/middle-college-high-school",
+    "owner": "Middle College High School",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.31929,
+    "lat": 37.9947715
+  },
+  {
+    "id": "office-president",
+    "name": "Office of the President",
+    "kind": "office",
+    "category": [
+      "Campus offices"
+    ],
+    "location_id": "horton-administration",
+    "room": "103",
+    "description": "The President’s Office at Delta College serves as the central hub for leadership, vision, and institutional direction. Guided by the College president, the office oversees the implementation of Delta’s mission to provide accessible, high-quality education and student support services. The President's Office receives guidance and oversight from the Delta College Board of Trustees.",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5018",
+    "email": "robin.phares@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/office-president",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/office-president",
+    "owner": "Office of the President",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.3173633,
+    "lat": 37.9953943
+  },
+  {
+    "id": "outreach-relation-schools-office",
+    "name": "Outreach and Relations with Schools Office",
+    "kind": "office",
+    "category": [
+      "Campus services"
+    ],
+    "location_id": "dericco",
+    "room": "139",
+    "description": "The Outreach and Relations with Schools team is dedicated to building strong connections between Delta College and the broader community, including schools, community organizations, and local businesses.",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5151 ext. 6311",
+    "email": "outreach@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/outreach-relation-schools-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/outreach-relation-schools-office",
+    "owner": "Outreach and Relations with Schools Office",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.3167004,
+    "lat": 37.997301
+  },
+  {
+    "id": "payroll-office",
+    "name": "Payroll Office",
+    "kind": "office",
+    "category": [
+      "Campus offices"
+    ],
+    "location_id": "horton-administration",
+    "room": "208",
+    "description": "The Payroll Office at Delta College ensures that all employees are paid accurately and on time, processing salaries, wages, and deductions in compliance with district, state, and federal regulations. The office also manages time reporting, tax documentation, and related payroll records.",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5035",
+    "email": "payroll@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/payroll-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/payroll-office",
+    "owner": "Payroll Office",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.3173633,
+    "lat": 37.9953943
+  },
+  {
+    "id": "police-department",
+    "name": "Police Department",
+    "kind": "office",
+    "category": [
+      "Safety"
+    ],
+    "location_id": "lourn-phelps-police-services",
+    "room": "100",
+    "lat": 37.99783,
+    "lng": -121.320616,
+    "description": "The San Joaquin Delta Community College District Police Department provides primary law enforcement service and community policing in the district campus locations.",
+    "hours": {
+      "mon": [
+        [
+          "00:00",
+          "24:00"
+        ]
+      ],
+      "tue": [
+        [
+          "00:00",
+          "24:00"
+        ]
+      ],
+      "wed": [
+        [
+          "00:00",
+          "24:00"
+        ]
+      ],
+      "thu": [
+        [
+          "00:00",
+          "24:00"
+        ]
+      ],
+      "fri": [
+        [
+          "00:00",
+          "24:00"
+        ]
+      ],
+      "sat": [
+        [
+          "00:00",
+          "24:00"
+        ]
+      ],
+      "sun": [
+        [
+          "00:00",
+          "24:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5000",
+    "email": "policedeptdispatch@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/police-department",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/police-department",
+    "owner": "Police Department",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": false
+  },
+  {
+    "id": "post-academy",
+    "name": "POST Academy Office",
+    "kind": "office",
+    "category": [
+      "Career & jobs"
+    ],
+    "location_id": "holt",
+    "room": "134",
+    "description": "The Delta College POST Academy mission is to prepare students mentally, morally, emotionally and physically to perform the duties of a peace officer.",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5258",
+    "email": "post@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/post-academy",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/post-academy",
+    "owner": "POST Academy Office",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.317703,
+    "lat": 37.9945954
+  },
+  {
+    "id": "pride-center",
+    "name": "Pride Center",
+    "kind": "office",
+    "category": [
+      "Student life"
+    ],
+    "location_id": "danner",
+    "room": "202B",
+    "description": "The Pride Center at San Joaquin Delta College is a welcoming and supportive space dedicated to LGBTQ+ students and allies. It provides resources, programming, and advocacy to foster a safe, inclusive, and affirming campus environment. The Center also offers opportunities for community building, personal growth, and education to promote understanding, respect, and equity across the college.",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5260",
+    "email": "delta.pride@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/pride-center",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/pride-center",
+    "owner": "Pride Center",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.318842,
+    "lat": 37.9956434
+  },
+  {
+    "id": "procurement-contracts",
+    "name": "Procurement and Contracts",
+    "kind": "office",
+    "category": [
+      "Campus offices"
+    ],
+    "location_id": "danner",
+    "room": "B4",
+    "description": "As a publicly funded institution, the Delta College conducts all purchasing activities in accordance with established statutes, policies, and procedures. Adhering to these procurement guidelines safeguards public funds, reduces risk, and ensures accountability across all departments and funding sources.",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5065",
+    "email": "purchasing@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/procurement-contracts",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/procurement-contracts",
+    "owner": "Procurement and Contracts",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.318842,
+    "lat": 37.9956434
+  },
+  {
+    "id": "professional-development-center",
+    "name": "Professional Development Center",
+    "kind": "office",
+    "category": [
+      "Campus offices"
+    ],
+    "location_id": "holt",
+    "room": "121",
+    "description": "The Professional Development Center fosters a culture of learning and growth across Delta College. It offers high-quality programs and services that promote access, student success, and positive learning outcomes while supporting excellence, innovation, service, and leadership among faculty, classified professionals, and managers.",
+    "hours": {
+      "mon": [
+        [
+          "08:30",
+          "17:30"
+        ]
+      ],
+      "tue": [
+        [
+          "08:30",
+          "17:30"
+        ]
+      ],
+      "wed": [
+        [
+          "08:30",
+          "17:30"
+        ]
+      ],
+      "thu": [
+        [
+          "08:30",
+          "17:30"
+        ]
+      ],
+      "fri": [
+        [
+          "08:30",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5879",
+    "email": "prodevcenter@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/professional-development-center",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/professional-development-center",
+    "owner": "Professional Development Center",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.317703,
+    "lat": 37.9945954
+  },
+  {
+    "id": "publications-center",
+    "name": "Publications Center",
+    "kind": "office",
+    "category": [
+      "Campus offices"
+    ],
+    "location_id": "budd",
+    "room": "102",
+    "description": "The Publication Center at San Joaquin Delta College exists to serve, within our considerable range of capabilities, the educational mission of this college. To that end, we will provide a wide variety of imaging and graphic design support services in the most efficient and economical route possible.",
+    "hours": {
+      "mon": [
+        [
+          "07:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "07:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "07:00",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "07:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "07:00",
+          "16:30"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5127",
+    "email": "printshop@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/publications-center",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/publications-center",
+    "owner": "Publications Center",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.31929,
+    "lat": 37.9947715
+  },
+  {
+    "id": "regional-distance-education-office",
+    "name": "Regional and Distance Education",
+    "kind": "office",
+    "category": [
+      "Academic support"
+    ],
+    "location_id": "holt",
+    "room": "121",
+    "description": "Delta College's Regional and Distance Education offer you the opportunity to complete most or all your coursework beyond a Stockton campus classroom, in a local community classroom, or in your own home on your own time.",
+    "hours": {
+      "mon": [
+        [
+          "08:30",
+          "17:30"
+        ]
+      ],
+      "tue": [
+        [
+          "08:30",
+          "17:30"
+        ]
+      ],
+      "wed": [
+        [
+          "08:30",
+          "17:30"
+        ]
+      ],
+      "thu": [
+        [
+          "08:30",
+          "17:30"
+        ]
+      ],
+      "fri": [
+        [
+          "08:30",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5865",
+    "email": "leticia.samson@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/regional-distance-education-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/regional-distance-education-office",
+    "owner": "Regional and Distance Education",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.317703,
+    "lat": 37.9945954
+  },
+  {
+    "id": "science-engineering-computer-science-math-office",
+    "name": "Science, Engineering, Computer Science, and Math Division Office",
+    "kind": "office",
+    "category": [
+      "Campus offices"
+    ],
+    "location_id": "science-math",
+    "room": "338",
+    "description": "The Science, Engineering, Computer Science & Math Division at San Joaquin Delta College is a vibrant hub for discovery and innovation. Bringing together fields such as astronomy, biology, chemistry, computer science, engineering, geology, mathematics, and physics, the division combines rigorous coursework with hands-on learning through labs, research, STEM clubs, and programs like MESA.",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5354",
+    "email": "tiffanie.elledge@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/science-engineering-computer-science-math-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/science-engineering-computer-science-math-office",
+    "owner": "Science, Engineering, Computer Science, and Math Division Office",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.318018,
+    "lat": 37.9968437
+  },
+  {
+    "id": "social-science-humanities-education-division-main-office",
+    "name": "Social Science, Humanities, and Education Division Office",
+    "kind": "office",
+    "category": [
+      "Campus offices"
+    ],
+    "location_id": "budd",
+    "room": "319",
+    "description": "The Social Science, Humanities, and Education Division at Delta College offers a pathway for students seeking to make a difference in their communities. The division prepares learners for impactful careers in government, education, social services, public safety, and related fields.",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5262",
+    "email": "cory.chapman@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/social-science-humanities-education-division-main-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/social-science-humanities-education-division-main-office",
+    "owner": "Social Science, Humanities, and Education Division Office",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.31929,
+    "lat": 37.9947715
+  },
+  {
+    "id": "strong-workforce-program-office",
+    "name": "Strong Workforce Program Office",
+    "kind": "office",
+    "category": [
+      "Career & jobs"
+    ],
+    "location_id": "shima",
+    "room": "217",
+    "description": "The Strong Workforce Program at Delta College strives to increase the number of students in quality Career Technical Education (CTE) courses, programs, pathways, credentials, certificates, and degrees that lead to successful workforce outcomes.",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5728",
+    "email": "pam.smith@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/strong-workforce-program-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/strong-workforce-program-office",
+    "owner": "Strong Workforce Program Office",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.3186252,
+    "lat": 37.9961718
+  },
+  {
+    "id": "student-food-pantry",
+    "name": "Student Food Pantry",
+    "kind": "service",
+    "category": [
+      "Food"
+    ],
+    "location_id": "shima",
+    "room": "101",
+    "description": "Free groceries for enrolled students.",
+    "hours": {
+      "tue": [
+        [
+          "10:00",
+          "16:00"
+        ]
+      ],
+      "wed": [
+        [
+          "13:00",
+          "16:00"
+        ]
+      ],
+      "thu": [
+        [
+          "10:00",
+          "16:00"
+        ]
+      ]
+    },
+    "eligibility": "Enrolled students with student ID and online application",
+    "url": "https://www.deltacollege.edu/node/4551",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/node/4551",
+    "owner": "Basic Needs Center",
+    "next_review": "2027-01-15",
+    "approximate": true,
+    "lng": -121.3186252,
+    "lat": 37.9961718
+  },
+  {
+    "id": "student-life-office",
+    "name": "Student Life Office",
+    "kind": "office",
+    "category": [
+      "Events",
+      "Student life"
+    ],
+    "location_id": "shima",
+    "room": "101C",
+    "description": "Jump into our dynamic student community and get to know your peers through a wide variety of activities, clubs and organizations, health and wellness programs, cultural events and more. Whatever your personal or professional interests, Delta has the opportunities to help you get the most from your college experience.",
+    "hours_note": "Monday – Thursday: 8:00 a.m. to 5:00 p.m.* Friday: 8:00 a.m. to 12:00 p.m. *Closed for lunch 12:00 p.m. to 1:00 p.m.",
+    "phone": "(209) 954-5100",
+    "email": "studentlife@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/student-life-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/student-life-office",
+    "owner": "Student Life Office",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.3186252,
+    "lat": 37.9961718
+  },
+  {
+    "id": "student-services-division-main-office",
+    "name": "Student Services Division Main Office",
+    "kind": "office",
+    "category": [
+      "Campus offices"
+    ],
+    "location_id": "horton-administration",
+    "room": "107",
+    "description": "Whether you are a new student or returning student, we welcome you to Delta College! Student Services at Delta College strives to provide co-curricular programs and services that recognize and respect diversity, facilitate access and equity as well as foster the personal and professional success for all students.",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5005",
+    "email": "studentservices@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/student-services-division-main-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/student-services-division-main-office",
+    "owner": "Student Services Division Main Office",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.3173633,
+    "lat": 37.9953943
+  },
+  {
+    "id": "student-support-services",
+    "name": "Student Support Services",
+    "kind": "office",
+    "category": [
+      "Academic support"
+    ],
+    "location_id": "dericco",
+    "room": "234",
+    "description": "TRIO program for first-generation, low-income and disabled students.",
+    "url": "https://deltacollege.edu/about/offices/student-support-services-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://deltacollege.edu/about/offices/student-support-services-office",
+    "owner": "Student Support Services",
+    "next_review": "2027-01-15",
+    "approximate": true,
+    "lng": -121.3167004,
+    "lat": 37.997301
+  },
+  {
+    "id": "vault-services-office",
+    "name": "Vault Services / Cashier's Office",
+    "kind": "office",
+    "category": [
+      "Money & financial aid"
+    ],
+    "location_id": "horton-administration",
+    "room": "102A",
+    "description": "Vault Services / Cashier's Office staff is committed to providing quality customer service. Vault Services is responsible for collection and deposit of all College funds in accordance with state and federal regulations. We work closely with various departments to develop and implement cash receipting and cash handling procedures.",
+    "hours_note": "Monday - Friday: 8:00 a.m. - 5:00 p.m. (closed daily from 12 - 1 p.m. for lunch.)",
+    "phone": "(209) 954-5713",
+    "email": "cashiers@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/vault-services-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/vault-services-office",
+    "owner": "Vault Services / Cashier's Office",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.3173633,
+    "lat": 37.9953943
+  },
+  {
+    "id": "veteran-resource-center",
+    "name": "Veterans Resource Center",
+    "kind": "office",
+    "category": [
+      "Veterans"
+    ],
+    "location_id": "dericco",
+    "room": "141",
+    "description": "The Veterans Resource Center (VRC) is Delta College’s central hub for student veterans, active-duty service members, and military-connected dependents. It provides dedicated support, guidance, and community — including a welcoming space to study, relax, and connect with fellow military-affiliated students or get involved with the Student Veterans of America (SVA) Club.",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5151 ext. 6151",
+    "email": "vrc@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/veteran-resource-center",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/veteran-resource-center",
+    "owner": "Veterans Resource Center",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.3167004,
+    "lat": 37.997301
+  },
+  {
+    "id": "workforce-development-center",
+    "name": "Workforce Development Center",
+    "kind": "office",
+    "category": [
+      "Career & jobs"
+    ],
+    "location_id": "shima",
+    "room": "217",
+    "description": "The Workforce Development Center helps Delta College students prepare for their careers and find employment opportunities. Get one-on-one career support with resume and cover letter writing, mock interviews, interview preparation, networking, job searches, and job applications.",
+    "hours": {
+      "mon": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "tue": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "wed": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "thu": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ],
+      "fri": [
+        [
+          "08:00",
+          "17:00"
+        ]
+      ]
+    },
+    "phone": "(209) 954-5728",
+    "email": "workforcecenter@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/workforce-development-center",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/workforce-development-center",
+    "owner": "Workforce Development Center",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.3186252,
+    "lat": 37.9961718
+  },
+  {
+    "id": "workforce-training-institute-office",
+    "name": "Workforce Training Institute Office",
+    "kind": "office",
+    "category": [
+      "Career & jobs"
+    ],
+    "location_id": "locke",
+    "room": "107",
+    "description": "The Delta College Workforce Training Institute offers hands-on learning and professional development opportunities in healthcare, technology, business, and personal enrichment. Our programs are designed to help individuals from all backgrounds gain the skills, confidence, and credentials needed to enter today’s workforce and advance their careers.",
+    "hours_note": "Monday - Friday: 9:30 a.m. - 5:00 p.m. Appointments Recommended",
+    "phone": "(209) 954-5045",
+    "email": "shirley.chapin@deltacollege.edu",
+    "url": "https://www.deltacollege.edu/about/offices/workforce-training-institute-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/workforce-training-institute-office",
+    "owner": "Workforce Training Institute Office",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.3169512,
+    "lat": 37.9957354
+  },
+  {
+    "id": "worknet-office",
+    "name": "WorkNet Office",
+    "kind": "office",
+    "category": [
+      "Career & jobs"
+    ],
+    "location_id": "shima",
+    "room": "217",
+    "description": "San Joaquin County WorkNet provides employment and training opportunities to job seekers in San Joaquin County by assisting them with accessing employment, education, training and support services required to succeed in the labor market.",
+    "hours_note": "Mondays, Tuesdays and Thursdays : 8:00 a.m. - 4:30 p.m. Wednesdays : 8:00 a.m. - 2:30 p.m. Fridays : 8:00 am - 4:30 p.m. (may vary during summer)",
+    "phone": "(209) 954-5151 ext. 6329",
+    "email": "nhelms@sjcworknet.org",
+    "url": "https://www.deltacollege.edu/about/offices/worknet-office",
+    "languages": [
+      "English"
+    ],
+    "source_url": "https://www.deltacollege.edu/about/offices/worknet-office",
+    "owner": "WorkNet Office",
+    "last_verified": "2026-10-28",
+    "next_review": "2027-01-26",
+    "approximate": true,
+    "lng": -121.3186252,
+    "lat": 37.9961718
+  }
+]
