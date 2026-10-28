@@ -66,11 +66,15 @@ npm test                    # Python tests for the sync and geometry
 npm run sync                # rebuild data/*.json from data/seed/*.csv
 python3 -m scripts.sync --check
 python3 -m scripts.import_osm   # refresh buildings from OpenStreetMap
+npm run colors                  # give new buildings a color (randoma11y, 3:1 against the paper map)
 python3 -m scripts.crawl_delta --cache /tmp/delta-pages  # refresh offices from deltacollege.edu
 ```
 
 The base map is OpenStreetMap data via [OpenFreeMap](https://openfreemap.org) tiles (no key, no
-cookies), set in `lib/categories.ts`.
+cookies), set in `lib/categories.ts` and recolored as paper in `lib/paper.ts`. Each building's
+color is stored in `data/buildings.geojson`; `npm run colors` picks one for any building without
+one, and `npm run colors -- --all` rerolls them all. The page follows deltacollege.edu's look:
+Delta yellow, Bowlby One headings, Open Sans text.
 
 ## Offices from deltacollege.edu
 

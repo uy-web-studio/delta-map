@@ -6,7 +6,8 @@
       "properties": {
         "location_id": "budd",
         "name": "Budd Center",
-        "osm": "way/293625577"
+        "osm": "way/293625577",
+        "color": "#008572"
       },
       "geometry": {
         "type": "Polygon",
@@ -361,7 +362,8 @@
       "properties": {
         "location_id": "microscopy-allied-sciences",
         "name": "Center for Microscopy and Allied Sciences",
-        "osm": "way/293608769"
+        "osm": "way/293608769",
+        "color": "#ac5592"
       },
       "geometry": {
         "type": "Polygon",
@@ -432,7 +434,8 @@
       "properties": {
         "location_id": "child-development",
         "name": "Child Development Center",
-        "osm": "way/293609660"
+        "osm": "way/293609660",
+        "color": "#3e84bd"
       },
       "geometry": {
         "type": "Polygon",
@@ -515,7 +518,8 @@
       "properties": {
         "location_id": "danner",
         "name": "Danner Hall",
-        "osm": "way/293621043"
+        "osm": "way/293621043",
+        "color": "#16500e"
       },
       "geometry": {
         "type": "Polygon",
@@ -726,7 +730,8 @@
       "properties": {
         "location_id": "dericco",
         "name": "DeRicco Student Services Building",
-        "osm": "way/233978100"
+        "osm": "way/233978100",
+        "color": "#0b0d95"
       },
       "geometry": {
         "type": "Polygon",
@@ -845,7 +850,8 @@
       "properties": {
         "location_id": "forum",
         "name": "Forum",
-        "osm": "way/293610669"
+        "osm": "way/293610669",
+        "color": "#e2063e"
       },
       "geometry": {
         "type": "Polygon",
@@ -972,7 +978,8 @@
       "properties": {
         "location_id": "holt",
         "name": "Holt Center",
-        "osm": "way/293608682"
+        "osm": "way/293608682",
+        "color": "#c807e8"
       },
       "geometry": {
         "type": "Polygon",
@@ -1487,7 +1494,8 @@
       "properties": {
         "location_id": "horton-administration",
         "name": "Horton Administration",
-        "osm": "way/293610388"
+        "osm": "way/293610388",
+        "color": "#9855f6"
       },
       "geometry": {
         "type": "Polygon",
@@ -1642,7 +1650,8 @@
       "properties": {
         "location_id": "locke",
         "name": "Locke Center",
-        "osm": "way/293610397"
+        "osm": "way/293610397",
+        "color": "#688812"
       },
       "geometry": {
         "type": "Polygon",
@@ -1741,7 +1750,8 @@
       "properties": {
         "location_id": "lourn-phelps-police-services",
         "name": "Lourn Phelps Police Services Building",
-        "osm": "way/293614744"
+        "osm": "way/293614744",
+        "color": "#6a0b56"
       },
       "geometry": {
         "type": "Polygon",
@@ -1776,7 +1786,8 @@
       "properties": {
         "location_id": "science-math",
         "name": "Science & Math",
-        "osm": "way/347385401"
+        "osm": "way/347385401",
+        "color": "#fc119e"
       },
       "geometry": {
         "type": "Polygon",
@@ -1975,7 +1986,8 @@
       "properties": {
         "location_id": "shima",
         "name": "Shima Center",
-        "osm": "relation/5396161"
+        "osm": "relation/5396161",
+        "color": "#4503fd"
       },
       "geometry": {
         "type": "Polygon",
@@ -2054,7 +2066,8 @@
       "properties": {
         "location_id": "shop",
         "name": "Shop",
-        "osm": "relation/5396162"
+        "osm": "relation/5396162",
+        "color": "#be6325"
       },
       "geometry": {
         "type": "Polygon",
@@ -2093,7 +2106,8 @@
       "properties": {
         "location_id": "warren-atherton-auditorium",
         "name": "Warren Atherton Auditorium",
-        "osm": "way/293610376"
+        "osm": "way/293610376",
+        "color": "#465e57"
       },
       "geometry": {
         "type": "Polygon",
@@ -2192,7 +2206,8 @@
       "properties": {
         "location_id": "bldg-290462508",
         "name": "Unnamed building",
-        "osm": "way/290462508"
+        "osm": "way/290462508",
+        "color": "#490109"
       },
       "geometry": {
         "type": "Polygon",
@@ -2259,7 +2274,8 @@
       "properties": {
         "location_id": "bldg-290463276",
         "name": "Unnamed building",
-        "osm": "way/290463276"
+        "osm": "way/290463276",
+        "color": "#522ea6"
       },
       "geometry": {
         "type": "Polygon",
@@ -2302,7 +2318,8 @@
       "properties": {
         "location_id": "bldg-293609109",
         "name": "Unnamed building",
-        "osm": "way/293609109"
+        "osm": "way/293609109",
+        "color": "#738f6e"
       },
       "geometry": {
         "type": "Polygon",
@@ -2377,7 +2394,8 @@
       "properties": {
         "location_id": "bldg-293615543",
         "name": "Unnamed building",
-        "osm": "way/293615543"
+        "osm": "way/293615543",
+        "color": "#0414de"
       },
       "geometry": {
         "type": "Polygon",
@@ -2412,7 +2430,8 @@
       "properties": {
         "location_id": "bldg-293615595",
         "name": "Unnamed building",
-        "osm": "way/293615595"
+        "osm": "way/293615595",
+        "color": "#0856c4"
       },
       "geometry": {
         "type": "Polygon",
@@ -2447,7 +2466,8 @@
       "properties": {
         "location_id": "bldg-293616819",
         "name": "Unnamed building",
-        "osm": "way/293616819"
+        "osm": "way/293616819",
+        "color": "#355bfb"
       },
       "geometry": {
         "type": "Polygon",
@@ -2482,7 +2502,8 @@
       "properties": {
         "location_id": "bldg-293617088",
         "name": "Unnamed building",
-        "osm": "way/293617088"
+        "osm": "way/293617088",
+        "color": "#a70c2b"
       },
       "geometry": {
         "type": "Polygon",
@@ -2517,7 +2538,8 @@
       "properties": {
         "location_id": "bldg-293621545",
         "name": "Unnamed building",
-        "osm": "way/293621545"
+        "osm": "way/293621545",
+        "color": "#132148"
       },
       "geometry": {
         "type": "Polygon",
@@ -2560,7 +2582,8 @@
       "properties": {
         "location_id": "bldg-888017644",
         "name": "Unnamed building",
-        "osm": "way/888017644"
+        "osm": "way/888017644",
+        "color": "#299735"
       },
       "geometry": {
         "type": "Polygon",
@@ -2595,7 +2618,8 @@
       "properties": {
         "location_id": "bldg-1011913488",
         "name": "Unnamed building",
-        "osm": "way/1011913488"
+        "osm": "way/1011913488",
+        "color": "#8f02ff"
       },
       "geometry": {
         "type": "Polygon",
@@ -2662,7 +2686,8 @@
       "properties": {
         "location_id": "bldg-1011913489",
         "name": "Unnamed building",
-        "osm": "way/1011913489"
+        "osm": "way/1011913489",
+        "color": "#ab0c94"
       },
       "geometry": {
         "type": "Polygon",
@@ -2705,7 +2730,8 @@
       "properties": {
         "location_id": "bldg-1011913490",
         "name": "Unnamed building",
-        "osm": "way/1011913490"
+        "osm": "way/1011913490",
+        "color": "#fc3f1c"
       },
       "geometry": {
         "type": "Polygon",

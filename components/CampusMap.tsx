@@ -1,10 +1,11 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { GeolocateControl, Map as MlMap, NavigationControl, setWorkerUrl, type GeoJSONSource } from "maplibre-gl";
+import { GeolocateControl, Map as MlMap, NavigationControl, setWorkerUrl, type GeoJSONSource, type StyleSpecification } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import type { Feature, FeatureCollection, Polygon } from "geojson";
 import { colorFor, MAP_STYLE } from "@/lib/categories";
+import { INK, PAPER, paperStyle } from "@/lib/paper";
 import { bbox, centroid, spreadPins } from "@/lib/geo";
 import type { Building, Pin } from "@/lib/types";
 import type { Selection } from "./MapApp";
@@ -67,77 +68,97 @@ export default function CampusMap({ boundary, buildings, pins, eventCounts, sele
     );
   };
 
+  // The map is created after its style is fetched, so the load handler reads the latest data and
+  // selection through these instead of the first render's closure.
+  const latest = useRef({ buildingData, labelData, pinData });
+  latest.current = { buildingData, labelData, pinData };
+  const applySelection = useRef<() => void>(() => {});
+
   useEffect(() => {
-    const [w, s, e, n] = bbox(boundary.geometry.coordinates[0]);
-    const padX = (e - w) * 0.6, padY = (n - s) * 0.6;
-    const m = new MlMap({
-      container: container.current!,
-      style: MAP_STYLE,
-      bounds: [w, s, e, n],
-      fitBoundsOptions: { padding: 24 },
-      maxBounds: [w - padX, s - padY, e + padX, n + padY],
-      minZoom: 14,
-      attributionControl: { compact: true },
-    });
-    map.current = m;
-    m.addControl(new NavigationControl({ showCompass: false }), "bottom-right");
-    m.addControl(new GeolocateControl({ positionOptions: { enableHighAccuracy: true } }), "bottom-right");
-
-    m.on("load", () => {
-      m.addSource("boundary", { type: "geojson", data: boundary });
-      m.addSource("buildings", { type: "geojson", data: buildingData(), promoteId: "location_id" });
-      m.addSource("labels", { type: "geojson", data: labelData() });
-      m.addSource("pins", { type: "geojson", data: pinData() });
-
-      m.addLayer({ id: "boundary", type: "line", source: "boundary", paint: { "line-color": "#1e3a8a", "line-width": 2, "line-dasharray": [2, 2] } });
-      m.addLayer({
-        id: "buildings-fill",
-        type: "fill",
-        source: "buildings",
-        paint: { "fill-color": ["case", [">", ["get", "events"], 0], "#db2777", "#1e3a8a"], "fill-opacity": ["case", [">", ["get", "events"], 0], 0.35, 0.15] },
-      });
-      m.addLayer({ id: "buildings-line", type: "line", source: "buildings", paint: { "line-color": "#1e3a8a", "line-width": 1 } });
-      m.addLayer({ id: "buildings-selected", type: "line", source: "buildings", filter: ["==", ["get", "location_id"], ""], paint: { "line-color": "#f59e0b", "line-width": 3 } });
-      m.addLayer({
-        id: "labels",
-        type: "symbol",
-        source: "labels",
-        minzoom: 15.5,
-        layout: {
-          "text-field": ["get", "label"],
-          "text-size": 12,
-          "text-font": ["Noto Sans Regular"],
-          "text-max-width": 8,
-          "text-anchor": "top",
-          "text-offset": [0, 0.9],
-        },
-        paint: { "text-color": "#111827", "text-halo-color": "#ffffff", "text-halo-width": 1.5 },
-      });
-      m.addLayer({
-        id: "pins",
-        type: "circle",
-        source: "pins",
-        paint: { "circle-radius": ["interpolate", ["linear"], ["zoom"], 15, 5, 18, 9], "circle-color": ["get", "color"], "circle-stroke-color": "#ffffff", "circle-stroke-width": 2 },
-      });
-      m.addLayer({ id: "pins-selected", type: "circle", source: "pins", filter: ["==", ["get", "id"], ""], paint: { "circle-radius": 13, "circle-color": "rgba(0,0,0,0)", "circle-stroke-color": "#f59e0b", "circle-stroke-width": 3 } });
-
-      // Pins sit on top of buildings, so check them first.
-      m.on("click", (ev) => {
-        const pin = m.queryRenderedFeatures(ev.point, { layers: ["pins"] })[0];
-        if (pin) return onSelectRef.current({ kind: "pin", id: String(pin.properties.id) });
-        const b = m.queryRenderedFeatures(ev.point, { layers: ["buildings-fill"] })[0];
-        if (b) onSelectRef.current({ kind: "building", id: String(b.properties.location_id) });
-      });
-      for (const layer of ["pins", "buildings-fill"]) {
-        m.on("mouseenter", layer, () => (m.getCanvas().style.cursor = "pointer"));
-        m.on("mouseleave", layer, () => (m.getCanvas().style.cursor = ""));
-      }
-      ready.current = true;
-    });
+    let m: MlMap | null = null;
+    let cancelled = false;
+    fetch(MAP_STYLE)
+      .then((r) => r.json())
+      .then((style) => !cancelled && create(paperStyle(style)));
     return () => {
+      cancelled = true;
       ready.current = false;
-      m.remove();
+      m?.remove();
     };
+
+    function create(style: StyleSpecification) {
+      const [w, s, e, n] = bbox(boundary.geometry.coordinates[0]);
+      const padX = (e - w) * 0.6, padY = (n - s) * 0.6;
+      m = new MlMap({
+        container: container.current!,
+        style,
+        bounds: [w, s, e, n],
+        fitBoundsOptions: { padding: 24 },
+        maxBounds: [w - padX, s - padY, e + padX, n + padY],
+        minZoom: 14,
+        attributionControl: { compact: true },
+      });
+      map.current = m;
+      m.addControl(new NavigationControl({ showCompass: false }), "bottom-right");
+      m.addControl(new GeolocateControl({ positionOptions: { enableHighAccuracy: true } }), "bottom-right");
+
+      m.on("load", () => {
+        const m = map.current!;
+        const { buildingData, labelData, pinData } = latest.current;
+        m.addSource("boundary", { type: "geojson", data: boundary });
+        m.addSource("buildings", { type: "geojson", data: buildingData(), promoteId: "location_id" });
+        m.addSource("labels", { type: "geojson", data: labelData() });
+        m.addSource("pins", { type: "geojson", data: pinData() });
+
+        m.addLayer({ id: "boundary", type: "line", source: "boundary", paint: { "line-color": INK, "line-width": 2, "line-dasharray": [2, 2] } });
+        m.addLayer({
+          id: "buildings-fill",
+          type: "fill",
+          source: "buildings",
+          // Each building has its own color (scripts/building-colors.mjs); one with events today fills in more.
+          paint: { "fill-color": ["coalesce", ["get", "color"], INK], "fill-opacity": ["case", [">", ["get", "events"], 0], 0.6, 0.28] },
+        });
+        m.addLayer({ id: "buildings-line", type: "line", source: "buildings", paint: { "line-color": ["coalesce", ["get", "color"], INK], "line-width": 1.5 } });
+        m.addLayer({ id: "buildings-selected", type: "line", source: "buildings", filter: ["==", ["get", "location_id"], ""], paint: { "line-color": "#ffcb05", "line-width": 7 } });
+        m.addLayer({ id: "buildings-selected-edge", type: "line", source: "buildings", filter: ["==", ["get", "location_id"], ""], paint: { "line-color": INK, "line-width": 2 } });
+        m.addLayer({
+          id: "labels",
+          type: "symbol",
+          source: "labels",
+          minzoom: 15.5,
+          layout: {
+            "text-field": ["get", "label"],
+            "text-size": 12,
+            "text-font": ["Noto Sans Regular"],
+            "text-max-width": 8,
+            "text-anchor": "top",
+            "text-offset": [0, 0.9],
+          },
+          paint: { "text-color": INK, "text-halo-color": PAPER, "text-halo-width": 1.5 },
+        });
+        m.addLayer({
+          id: "pins",
+          type: "circle",
+          source: "pins",
+          paint: { "circle-radius": ["interpolate", ["linear"], ["zoom"], 15, 5, 18, 9], "circle-color": ["get", "color"], "circle-stroke-color": PAPER, "circle-stroke-width": 2 },
+        });
+        m.addLayer({ id: "pins-selected", type: "circle", source: "pins", filter: ["==", ["get", "id"], ""], paint: { "circle-radius": 13, "circle-color": "#ffcb05", "circle-stroke-color": INK, "circle-stroke-width": 2 } }, "pins");
+
+        // Pins sit on top of buildings, so check them first.
+        m.on("click", (ev) => {
+          const pin = m.queryRenderedFeatures(ev.point, { layers: ["pins"] })[0];
+          if (pin) return onSelectRef.current({ kind: "pin", id: String(pin.properties.id) });
+          const b = m.queryRenderedFeatures(ev.point, { layers: ["buildings-fill"] })[0];
+          if (b) onSelectRef.current({ kind: "building", id: String(b.properties.location_id) });
+        });
+        for (const layer of ["pins", "buildings-fill"]) {
+          m.on("mouseenter", layer, () => (m.getCanvas().style.cursor = "pointer"));
+          m.on("mouseleave", layer, () => (m.getCanvas().style.cursor = ""));
+        }
+        ready.current = true;
+        applySelection.current();
+      });
+    }
     // Built once; data updates go through setData below.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -152,14 +173,13 @@ export default function CampusMap({ boundary, buildings, pins, eventCounts, sele
   }, [pins, eventCounts]);
 
   useEffect(() => {
-    const m = map.current;
-    if (!m) return;
-    const apply = () => {
+    applySelection.current = () => {
+      const m = map.current!;
       const crowded = crowdedBuildings(pins);
       const picked = selection?.kind === "pin" ? pins.find((p) => p.id === selection.id) : undefined;
       // A pin folded into its building's count is shown by outlining the building.
       const buildingId = selection?.kind === "building" ? selection.id : picked ? hiddenIn(picked, crowded) : null;
-      m.setFilter("buildings-selected", ["==", ["get", "location_id"], buildingId ?? ""]);
+      for (const id of ["buildings-selected", "buildings-selected-edge"]) m.setFilter(id, ["==", ["get", "location_id"], buildingId ?? ""]);
       m.setFilter("pins-selected", ["==", ["get", "id"], selection?.kind === "pin" ? selection.id : ""]);
       const target = buildingId ? buildings.find((b) => b.properties.location_id === buildingId) : null;
       const pin = !target && picked ? spreadPins(pins.filter((p) => !hiddenIn(p, crowded))).find((p) => p.id === picked.id) : null;
@@ -169,8 +189,7 @@ export default function CampusMap({ boundary, buildings, pins, eventCounts, sele
       const padding = wide ? { right: 380, top: 0, bottom: 0, left: 0 } : { bottom: m.getContainer().clientHeight * 0.6, top: 0, left: 0, right: 0 };
       if (center) m.easeTo({ center: center as [number, number], zoom: Math.max(m.getZoom(), 17), padding });
     };
-    if (ready.current) apply();
-    else m.once("load", apply);
+    if (ready.current) applySelection.current();
   }, [selection, buildings, pins]);
 
   return <div ref={container} className="map" role="region" aria-label="Campus map. The list view has the same places in text." />;

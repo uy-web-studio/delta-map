@@ -8,6 +8,7 @@ export interface BuildingProps {
   location_id: string;
   name: string;
   osm?: string;
+  color?: string; // from scripts/building-colors.mjs
 }
 
 export interface Building {
