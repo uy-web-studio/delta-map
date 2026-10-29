@@ -91,3 +91,7 @@ with no outline yet (Goleman Library, the Data Center) and off-campus sites are 
 `notebooks/geometry.ipynb` refreshes footprints from OSM, shows them on a map, renames
 `location_id`s, runs the sync, and pushes a branch for a pull request. Open it from Drive or from
 GitHub in Colab.
+
+## Notes to Consider
+
+["Creating and maintaining digital third places: orchestrating interaction ritual chains at a distance"](https://www.sciencedirect.com/science/article/pii/S0022435925000600)
